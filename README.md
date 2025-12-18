@@ -39,8 +39,12 @@ Se realizó un análisis de correlación para identificar los factores que más 
 Tras el análisis de correlación, se identificaron los siguientes patrones:
 
 Factores de Riesgo (Churn alto):
+<img width="855" height="547" alt="image" src="https://github.com/user-attachments/assets/5b8c6e23-bdeb-44d7-9ac5-89f594d2f2e6" />
+
 
 Contratos Mes a Mes: Es el mayor predictor de fuga.
+<img width="874" height="548" alt="image" src="https://github.com/user-attachments/assets/4070a85d-6240-4da9-b6e8-5ef6e440a428" />
+
 
 Internet por Fibra Óptica: Presenta una tasa de evasión superior a otras tecnologías.
 
@@ -51,3 +55,6 @@ Factores de Retención (Lealtad):
 Antigüedad (Tenure): A mayor tiempo en la empresa, menor es el riesgo de churn.
 
 Contratos a Largo Plazo: Los contratos a dos años son la herramienta de retención más efectiva.
+<img width="937" height="843" alt="image" src="https://github.com/user-attachments/assets/c10099e6-c7d7-4c74-9569-85e8a6ec0c5a" />
+
+
