@@ -1,7 +1,9 @@
 # Challenge-Telecom-X
 Desafío Alura One
 Análisis de Evasión de Clientes (Churn) - Telecom X 🚀
+
 📋 Descripción del Proyecto
+
 Este proyecto fue desarrollado como parte de un desafío para la empresa Telecom X. El objetivo principal fue realizar un proceso completo de ETL (Extract, Transform, Load) y un Análisis Exploratorio de Datos (EDA) sobre la base de datos de clientes para identificar las causas principales de la evasión (Churn).
 
 Los resultados de este análisis sirven como base para que el equipo de Ciencia de Datos desarrolle modelos predictivos precisos.
@@ -38,23 +40,46 @@ Se realizó un análisis de correlación para identificar los factores que más 
 📈 Hallazgos Principales
 Tras el análisis de correlación, se identificaron los siguientes patrones:
 
-Factores de Riesgo (Churn alto):
-<img width="855" height="547" alt="image" src="https://github.com/user-attachments/assets/5b8c6e23-bdeb-44d7-9ac5-89f594d2f2e6" />
+Tipo de contrato
 
+El análisis muestra que el tipo de contrato es el factor más determinante en la evasión:
 
-Contratos Mes a Mes: Es el mayor predictor de fuga.
-<img width="874" height="548" alt="image" src="https://github.com/user-attachments/assets/4070a85d-6240-4da9-b6e8-5ef6e440a428" />
+Contrato month-to-month: ≈ 43% de churn
 
+Contrato one year: ≈ 11% de churn
 
-Internet por Fibra Óptica: Presenta una tasa de evasión superior a otras tecnologías.
+Contrato two year: ≈ 3% de churn
 
-Falta de servicios adicionales: La ausencia de Soporte Técnico y Seguridad en Línea aumenta la probabilidad de salida.
+Los contratos mensuales presentan una tasa de evasión significativamente mayor, lo que sugiere que la falta de compromiso a largo plazo facilita la decisión de abandono.
 
-Factores de Retención (Lealtad):
+2️⃣ Antigüedad del cliente (tenure)
 
-Antigüedad (Tenure): A mayor tiempo en la empresa, menor es el riesgo de churn.
+Los clientes que abandonan la empresa tienen, en promedio, una menor antigüedad, lo que indica que el churn ocurre principalmente en las primeras etapas de la relación con el cliente.
 
-Contratos a Largo Plazo: Los contratos a dos años son la herramienta de retención más efectiva.
-<img width="937" height="843" alt="image" src="https://github.com/user-attachments/assets/c10099e6-c7d7-4c74-9569-85e8a6ec0c5a" />
+3️⃣ Cargos mensuales
+
+Los clientes con churn presentan cargos mensuales ligeramente más altos, lo que puede indicar una percepción de bajo valor frente al costo del servicio.
+
+4️⃣ Servicios adicionales
+
+La ausencia de servicios adicionales como Tech Support se asocia a mayores tasas de churn, sugiriendo que el valor agregado contribuye a la retención.
+
+📌 Calidad de los datos
+
+Se identificaron 224 registros sin información de churn, los cuales se mantuvieron como valores nulos para evitar introducir supuestos no fundamentados. Estos registros no fueron considerados en los análisis comparativos.
+
+🎯 Conclusión general
+
+El churn en Telecom X está fuertemente asociado a contratos flexibles, baja antigüedad y menor valor percibido del servicio. Estos factores deben ser priorizados en futuras estrategias de retención y en modelos predictivos de evasión.
+
+🚀 Recomendaciones
+
+Incentivar la migración desde contratos mensuales a contratos de mayor duración
+
+Implementar estrategias de retención temprana para clientes nuevos
+
+Reforzar la oferta de servicios adicionales
+
+Utilizar el dataset limpio para desarrollar modelos predictivos de churn
 
 
